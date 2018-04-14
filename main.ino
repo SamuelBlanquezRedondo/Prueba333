@@ -1,4 +1,5 @@
-#include<Arduino.h>
+#include <Arduino.h>
+
 #declare LED 12
 
 void setup()
@@ -9,5 +10,5 @@ void setup()
 
 void loop()
 {
-	
+	digitalWrite(LED,HIGH);
 }
